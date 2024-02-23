@@ -1,0 +1,6 @@
+pr_10km = received_power_in_dbm+(20*log10(d/do))
+fprintf('%.2f', pr_10km)
+
+
+%N=[4 7 12];
+N = input('Please enter Matlab matrix> ')
